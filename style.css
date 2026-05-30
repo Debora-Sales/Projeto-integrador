@@ -1,0 +1,503 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #ffffff;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* =========================
+   CORES
+========================= */
+
+:root {
+
+    --azul-principal: #0057B8;
+    --azul-claro: #2EA8FF;
+
+    --amarelo: #FFD700;
+
+    --verde: #2EBD59;
+
+    --cinza-claro: #F4F7FA;
+
+    --cinza-texto: #6c757d;
+
+    --preto: #212529;
+
+    --branco: #ffffff;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 3px 15px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.nav-link {
+    color: var(--preto);
+    font-weight: 600;
+    margin-left: 15px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: var(--azul-principal);
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    background:
+        linear-gradient(
+            rgba(0,87,184,.92),
+            rgba(0,87,184,.85)
+        ),
+        url("../img/hero-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+    padding-top: 100px;
+}
+
+.hero-tag {
+
+    display: inline-block;
+
+    background: rgba(255,255,255,.15);
+
+    padding: 10px 18px;
+
+    border-radius: 30px;
+
+    margin-bottom: 20px;
+
+    font-weight: 600;
+}
+
+.hero h1 {
+
+    font-size: 4rem;
+
+    font-weight: 800;
+
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+}
+
+.hero p {
+
+    font-size: 1.15rem;
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+}
+
+.hero-logo {
+
+    max-width: 450px;
+
+    animation: float 4s ease-in-out infinite;
+}
+
+/* =========================
+   BOTÕES
+========================= */
+
+.btn-primary {
+
+    background: var(--amarelo);
+    border: none;
+
+    color: #000;
+
+    font-weight: 700;
+
+    padding: 12px 30px;
+
+    transition: .3s;
+}
+
+.btn-primary:hover {
+
+    background: #ffea61;
+
+    transform: translateY(-2px);
+
+    color: #000;
+}
+
+/* =========================
+   SEÇÕES
+========================= */
+
+section {
+    padding: 100px 0;
+}
+
+.section-title {
+
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+
+    color: var(--azul-principal);
+
+    font-size: 2.5rem;
+
+    font-weight: 800;
+}
+
+.section-title p {
+
+    color: var(--cinza-texto);
+
+    margin-top: 10px;
+}
+
+/* =========================
+   SOBRE
+========================= */
+
+#sobre {
+
+    background: #fff;
+}
+
+#sobre h3 {
+
+    color: var(--azul-principal);
+
+    margin-bottom: 20px;
+}
+
+#sobre p {
+
+    line-height: 1.9;
+}
+
+/* =========================
+   SOFTWARE
+========================= */
+
+#software {
+
+    background: var(--cinza-claro);
+}
+
+#software img {
+
+    max-width: 350px;
+
+    display: block;
+
+    margin: auto;
+}
+
+#software h3 {
+
+    color: var(--azul-principal);
+
+    margin-bottom: 20px;
+}
+
+#software ul {
+
+    margin-top: 20px;
+}
+
+#software li {
+
+    margin-bottom: 10px;
+
+    font-weight: 500;
+}
+
+/* =========================
+   MODULOS
+========================= */
+
+#modulos {
+
+    background: white;
+}
+
+.module-card {
+
+    background: white;
+
+    padding: 35px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+
+    transition: .3s;
+
+    height: 100%;
+}
+
+.module-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.15);
+}
+
+.module-card i {
+
+    font-size: 3rem;
+
+    color: var(--azul-principal);
+
+    margin-bottom: 20px;
+}
+
+.module-card h4 {
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+/* =========================
+   EQUIPE
+========================= */
+
+#equipe {
+
+    background: var(--cinza-claro);
+}
+
+.team-card {
+
+    background: white;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+
+    text-align: center;
+
+    transition: .3s;
+}
+
+.team-card:hover {
+
+    transform: translateY(-10px);
+}
+
+.team-card img {
+
+    width: 100%;
+
+    height: 300px;
+
+    object-fit: cover;
+}
+
+.team-card h5 {
+
+    margin-top: 20px;
+
+    font-weight: 700;
+}
+
+.team-card p {
+
+    color: var(--cinza-texto);
+
+    padding-bottom: 20px;
+}
+
+/* =========================
+   CONTATO
+========================= */
+
+#contato {
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--azul-principal),
+            var(--azul-claro)
+        );
+
+    color: white;
+}
+
+#contato .section-title h2 {
+
+    color: white;
+}
+
+#contato .section-title p {
+
+    color: rgba(255,255,255,.8);
+}
+
+form {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.15);
+}
+
+.form-control {
+
+    padding: 14px;
+
+    border-radius: 10px;
+}
+
+textarea {
+
+    resize: none;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+    background: #111;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    font-size: .95rem;
+}
+
+/* =========================
+   ANIMAÇÕES
+========================= */
+
+@keyframes float {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 991px) {
+
+    .hero {
+
+        text-align: center;
+    }
+
+    .hero h1 {
+
+        font-size: 3rem;
+    }
+
+    .hero-logo {
+
+        margin-top: 40px;
+
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+
+        font-size: 2.3rem;
+    }
+
+    .section-title h2 {
+
+        font-size: 2rem;
+    }
+
+    section {
+
+        padding: 70px 0;
+    }
+
+    form {
+
+        padding: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .hero h1 {
+
+        font-size: 2rem;
+    }
+
+    .hero p {
+
+        font-size: 1rem;
+    }
+
+    .navbar-brand img {
+
+        height: 45px;
+    }
+}
