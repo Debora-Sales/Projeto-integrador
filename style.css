@@ -501,3 +501,59 @@ footer {
         height: 45px;
     }
 }
+
+/* ==========================
+   CAROUSEL
+========================== */
+
+#apresentacao {
+    background: #f4f7fa;
+}
+
+.carousel-item img {
+
+    height: 650px;
+
+    object-fit: cover;
+}
+
+.carousel-caption {
+
+    background: rgba(0,0,0,.55);
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    backdrop-filter: blur(5px);
+}
+
+.carousel-caption h2 {
+
+    font-weight: 700;
+
+    color: white;
+}
+
+.carousel-caption p {
+
+    color: white;
+}
+
+/* Indicadores */
+
+.carousel-indicators button {
+
+    width: 14px !important;
+
+    height: 14px !important;
+
+    border-radius: 50% !important;
+
+    background-color: white !important;
+}
+
+.carousel-indicators .active {
+
+    background-color: #ffd700 !important;
+}
