@@ -5,7 +5,10 @@ Sistema desenvolvido pela **GET (Gestão Empresarial Tech)** como Projeto Integr
 O objetivo do sistema é automatizar processos administrativos e operacionais de pequenas empresas do segmento de produtos de limpeza, oferecendo controle de estoque, vendas, clientes, funcionários, logística e relatórios gerenciais.
 
 ---
+## 🌐 Demonstração
+ **O site está publicado e pode ser acessado aqui 👉 [link]([https://debora-sales.github.io/One-Piece-Site-atividade/](https://debora-sales.github.io/Projeto-integrador/))**
 
+---
 ## 📌 Sobre o Projeto
 
 A empresa fictícia **Xô Sujeira** é uma loja de produtos de limpeza que necessitava modernizar seus processos internos.
