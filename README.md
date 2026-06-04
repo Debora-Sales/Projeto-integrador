@@ -6,7 +6,7 @@ O objetivo do sistema é automatizar processos administrativos e operacionais de
 
 ---
 ## 🌐 Demonstração
- **O site está publicado e pode ser acessado aqui 👉 [link]([https://debora-sales.github.io/One-Piece-Site-atividade/](https://debora-sales.github.io/Projeto-integrador/))**
+ **O site está publicado e pode ser acessado aqui 👉 [link](https://debora-sales.github.io/Projeto-integrador/)**
 
 ---
 ## 📌 Sobre o Projeto
