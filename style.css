@@ -83,7 +83,7 @@ body {
             rgba(0,87,184,.92),
             rgba(0,87,184,.85)
         ),
-        url("../img/hero-bg.jpg");
+        url("img/hero-bg.jpg");
 
     background-size: cover;
     background-position: center;
@@ -92,6 +92,7 @@ body {
 
     padding-top: 100px;
 }
+
 
 .hero-tag {
 
